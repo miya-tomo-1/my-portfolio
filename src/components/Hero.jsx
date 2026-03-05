@@ -29,7 +29,7 @@ function Hero() {
 
       {/* 名前 */}
       <h1 className="text-5xl text-pink-300 font-bold mb-4">
-        Tomo
+        TOMO
       </h1>
 
       {/* キャッチコピー（タイピングアニメーション） */}
@@ -39,9 +39,17 @@ function Hero() {
       </p>
 
       {/* 下矢印 */}
-      <div className="animate-bounce text-pink-300 text-4xl mt-10 font-bold">
-        ⇩
-      </div>
+<div className="flex gap-8 mt-10">
+  <div className="animate-bounce text-pink-300 text-4xl font-bold">
+    ⇩
+  </div>
+  <div className="animate-ping text-pink-300 text-4xl font-bold">
+    ⇩
+  </div>
+  <div className="animate-bounce text-pink-300 text-4xl font-bold">
+    ⇩
+  </div>
+</div>
 
     </section>
   )
