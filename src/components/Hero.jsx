@@ -21,8 +21,8 @@ function Hero() {
       {/* プロフィール画像 */}
       <div className="w-50 h-50 rounded-full overflow-hidden mb-6 border-4 border-pink-300">
         <img
-          src="/profile.png"
-          alt="Tomoのプロフィール画像"
+//          src="/profile.png"
+src={import.meta.env.BASE_URL + 'profile.png'}          alt="Tomoのプロフィール画像"
           className="w-full h-full object-cover scale-125"
         />
       </div>
