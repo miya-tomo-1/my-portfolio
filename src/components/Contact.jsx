@@ -39,9 +39,9 @@ function Contact() {
       </h2>
       <div className="flex flex-col gap-6 items-center">
         <ContactLink
-          href="mailto:your-email@example.com"
+          href="mailto:miyatomo.bis@gmail.com"
           emoji="📧"
-          text="your-email@example.com"
+          text="miyatomo.bis@gmail.com"
           isExternal={false}
         />
         <ContactLink
